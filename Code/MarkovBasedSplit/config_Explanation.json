@@ -1,0 +1,12 @@
+{
+    "regular": 
+    {           
+        "CausedByTypeCausesCausedBy": {
+            "TransE": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 200, "eta": 15, "loss": "nll", "loss_params": {}, "embedding_model_params": {}, "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.007764913525398746}},
+            "DistMult": {"batches_count": 100, "seed": 0, "epochs": 500, "k": 200, "eta": 5, "loss": "nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 1, "lambda": 0.0001}, "optimizer": "adam", "optimizer_params": {"lr": 0.008411178371514666}},
+            "HolE": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 200, "eta": 5, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.00870793645241166}},
+            "ComplEx": {"batches_count": 100, "seed": 0, "epochs": 500, "k": 100, "eta": 5, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.006956062741769883}}
+        },
+
+    }
+}
