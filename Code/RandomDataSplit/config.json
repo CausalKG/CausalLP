@@ -1,0 +1,37 @@
+{
+    "regular": {
+        
+        "CausedByTypeCausesCausedBy": {
+            "TransE": {"batches_count": 100, "seed": 0, "epochs": 500, "k": 100, "eta": 15, "loss": "multiclass_nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 1, "lambda": 0.0001}, "optimizer": "adam", "optimizer_params": {"lr": 0.0003679829492941821}},
+            "DistMult": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 10, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.0010649400183823498}},
+            "HolE": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 200, "eta": 5, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.00870793645241166}},
+            "ComplEx": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 100, "eta": 10, "loss": "nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 3, "lambda": 1e-05}, "optimizer": "adam", "optimizer_params": {"lr": 0.0031153621036914864}}
+        }, 
+
+        
+        "CausesTypeCausesCausedBy": {
+            "TransE": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 5, "loss": "multiclass_nll", "loss_params": {"margin": 2}, "embedding_model_params": {},  "regularizer_params": {"p": 3, "lambda": 1e-05}, "optimizer": "adam", "optimizer_params": {"lr": 0.00023104489181310494}},
+            "DistMult": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 10, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.0010649400183823498}},
+            "HolE": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 5, "loss": "multiclass_nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 3, "lambda": 0.0001}, "optimizer": "adam", "optimizer_params": {"lr": 0.0010300110565085727}},
+            "ComplEx": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 100, "eta": 15, "loss": "nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 3, "lambda": 1e-05}, "optimizer": "adam", "optimizer_params": {"lr": 0.0026949696774728146}}
+        }
+
+    },
+
+    "focusE": {
+        "CausedByTypeCausesCausedBy": {
+            "TransE": {"batches_count": 100, "seed": 0, "epochs": 500, "k": 100, "eta": 15, "loss": "multiclass_nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 1, "lambda": 0.0001}, "optimizer": "adam", "optimizer_params": {"lr": 0.0003679829492941821}},
+            "DistMult": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 10, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.0010649400183823498}},
+            "HolE": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 200, "eta": 5, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.00870793645241166}},
+            "ComplEx": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 100, "eta": 10, "loss": "nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 3, "lambda": 1e-05}, "optimizer": "adam", "optimizer_params": {"lr": 0.0031153621036914864}}
+        }, 
+
+       "CausesTypeCausesCausedBy": {
+            "TransE": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 5, "loss": "multiclass_nll", "loss_params": {"margin": 2}, "embedding_model_params": {},  "regularizer_params": {"p": 3, "lambda": 1e-05}, "optimizer": "adam", "optimizer_params": {"lr": 0.00023104489181310494}},
+            "DistMult": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 10, "loss": "nll", "loss_params": {}, "embedding_model_params": {},  "regularizer_params": {}, "optimizer": "adam", "optimizer_params": {"lr": 0.0010649400183823498}},
+            "HolE": {"batches_count": 100, "seed": 0, "epochs": 300, "k": 200, "eta": 5, "loss": "multiclass_nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 3, "lambda": 0.0001}, "optimizer": "adam", "optimizer_params": {"lr": 0.0010300110565085727}},
+            "ComplEx": {"batches_count": 100, "seed": 0, "epochs": 100, "k": 100, "eta": 15, "loss": "nll", "loss_params": {}, "embedding_model_params": {}, "regularizer": "LP", "regularizer_params": {"p": 3, "lambda": 1e-05}, "optimizer": "adam", "optimizer_params": {"lr": 0.0026949696774728146}}
+        }
+    }
+
+}
